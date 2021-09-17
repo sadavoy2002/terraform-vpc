@@ -1,7 +1,7 @@
 terraform {
     backend "s3" {
-        bucket = "terraform24"
-        key = "terraform_vpc/us-east-2/class/dev/infrastructure.tfstate"
+        bucket = "bucket-terraform1"
+        key = "terraform_vpc/us-east-1/class/dev/infrastructure.tfstate"
         region = "us-east-1"
     }
 }
