@@ -12,12 +12,12 @@ terraform {
     {
       "Effect": "Allow",
       "Action": "s3:ListBucket",
-      "Resource": "arn:aws:s3:::mybucket"
+      "Resource": "arn:aws:s3:::terraform-bucke"
     },
     {
       "Effect": "Allow",
       "Action": ["s3:GetObject", "s3:PutObject"],
-      "Resource": "arn:aws:s3:::mybucket/path/to/my/key"
+      "Resource": "arn:aws:s3:::terraform-bucke/path/to/my/key"
     }
   ]
 }
